@@ -1,0 +1,99 @@
+body{
+    background-color:#022a30;
+    color: #b6cbce;
+    font-family: 'Bai jamjuree',sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #eef3db;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: #b6cbce;
+    transition: all 0.4s ease;
+} 
+a:hover{
+    color: #e0f780;
+}
+img{
+    width: 100%;
+}
+@media(min-width: 992px){
+    .navbar{
+        min-height: 100vh;
+        width: 240px;
+        background : linear-gradient(rgba(3, 63, 71, 0.808),rgba(3, 63, 71, 0.808)),url('/assets/images/sidebar-img.jpg');
+        background-size: cover ;
+        background-position: center;
+    }
+    .navbar-brand img{
+        border: 5px solid white;
+        
+    }
+    .content-wrapper{
+        padding-left: 240px;
+    }
+}
+.navbar{
+    background-color: #033f47;
+}
+.navbar .nav-link{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.navbar .nav-link:hover{
+    color: #e0f780;
+}
+.button1{
+    padding: 7px;
+    background-color: #020201;
+    color: white;
+    font-weight: bolder;
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+.text-brand{
+    color: #e0f780;
+}
+.base-color{
+    background-color: #033f47;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+.iconsize{
+    font-size: 30px;
+    padding: 3px;
+}
+.shadow-effect{
+    
+    transition: all 0.5s;
+}
+.shadow-effect:hover{
+    box-shadow: -6px 6px 0 0px #e0f780;
+}
+.navbar .nav-link.active{
+    color: #e0f780;
+}
+.card-color{
+    background-color: #033f47;
+    color: white;
+}
+.socialicons{
+    font-size: 30px;
+}
